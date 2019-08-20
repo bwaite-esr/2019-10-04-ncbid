@@ -309,14 +309,14 @@ please preview your site before committing, and make sure to run
   {% endif %}
   workshop,
   you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+  <b>During the ESR workshops, participants will be provided with laptops to use that contain this software pre-installed. Setup for personal/home use of the software is described below.</b>
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
-
+<!--
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
   <p>
@@ -644,7 +644,7 @@ please preview your site before committing, and make sure to run
   </p>
   {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
-
+-->
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
@@ -781,7 +781,7 @@ please preview your site before committing, and make sure to run
       <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
       Instructors will provide a workaround for it if needed.</strong></p>
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
-
+<!--
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
   <p>
@@ -859,3 +859,4 @@ please preview your site before committing, and make sure to run
   </ol>
 </div>
 {% endcomment %}
+-->
