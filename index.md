@@ -140,7 +140,7 @@ Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. During the ESR workshops, participants will be provided with laptops to use that contain this software pre-installed. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
 
 {% comment%}
@@ -777,10 +777,11 @@ please preview your site before committing, and make sure to run
     </div>
       {%endif%}
   </div>
-
+<!--
   <p><strong>If you installed Anaconda, it also has a copy of SQLite
       <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
       Instructors will provide a workaround for it if needed.</strong></p>
+-->
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
 <!--
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
